@@ -1,11 +1,13 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
-import Horizontal from './components/Horizontal/Horizontal'
+import Login from './components/Login/Login'
+//import Horizontal from './components/Horizontal/Horizontal'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Horizontal />
+      {/* <Horizontal /> */}
+      <Login />
     </View>
   )
 }
